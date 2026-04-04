@@ -71,7 +71,7 @@ A Spring Boot Discord bot using JDA. Dynamic command system for querying players
 
 I build tools to solve problems I actually have, and try to avoid hypothetical ones. If I can make something generic enough to share, I publish it. The goal is always to learn by shipping — not by collecting tutorials.
 
-Right now I'm focused on AI-augmented infrastructure tooling: giving AI assistants real access to real systems, so the conversation stops being "here's my `docker ps` output" and starts being "fix my container."
+Right now I'm focused on experimenting with AI-augmented infrastructure tooling.
 
 ---
 
