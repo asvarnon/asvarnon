@@ -5,7 +5,7 @@
 
 Software Engineer. I build tooling that solves problems — usually my own — and publish what I can in case it helps someone else.
 
-Professional background in Java, Spring Boot, and enterprise backend systems. Outside of work I run a homelab for testing new software, hosting personal tools, running end-to-end SDLC pipelines for proficiency and understanding, and sometimes things as simple as game hosting for the friend group. Currently focused on building AI-augmented infrastructure tooling. Most of what you see here is personal work: things I'm learning, things I'm building, and the occasional experiment that went somewhere interesting.
+Professional background in Java, Spring Boot, and enterprise backend systems. Outside of work I run a homelab for testing new software, hosting personal tools, running end-to-end SDLC pipelines for proficiency and understanding, and sometimes things as simple as game hosting for the friend group. Currently experimenting with AI-augmented infrastructure tooling. Most of what you see here is personal work: things I'm learning, things I'm building, and the occasional experiment that went somewhere interesting.
 
 ---
 
