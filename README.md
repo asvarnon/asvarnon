@@ -64,6 +64,8 @@
   ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
   ![MCP](https://img.shields.io/badge/MCP_Protocol-000000?style=flat-square)
   ![Tokio](https://img.shields.io/badge/Tokio-async-000000?style=flat-square)
+  ![llama.cpp](https://img.shields.io/badge/llama.cpp-000000?style=flat-square)
+  ![cuda-oxide](https://img.shields.io/badge/cuda--oxide-76B900?style=flat-square)
   ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
   ![OPNsense](https://img.shields.io/badge/OPNsense-D94F00?style=flat-square&logo=opnsense&logoColor=white)
   ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
