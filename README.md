@@ -1,84 +1,86 @@
 # Austin Varnon
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-austinvarnon-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/austinvarnon/)
-[![PyPI](https://img.shields.io/pypi/v/mcp-homelab?style=flat-square&logo=pypi&logoColor=white&label=mcp-homelab)](https://pypi.org/project/mcp-homelab/)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-austinvarnon-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/austinvarnon/)
 
-Software Engineer. I build tooling that solves problems — usually my own — and publish what I can in case it helps someone else.
+  I build tools to solve problems I'm facing, or because something seems interesting enough to apply a concept I'm working through — sometimes both.
 
-Professional background in Java, Spring Boot, and enterprise backend systems. Outside of work I run a homelab for testing new software, hosting personal tools, running end-to-end SDLC pipelines for proficiency and understanding, and sometimes things as simple as game hosting for the friend group. Currently experimenting with AI-augmented infrastructure tooling. Most of what you see here is personal work: things I'm learning, things I'm building, and the occasional experiment that went somewhere interesting.
+  Professional background in Java, Spring Boot, and enterprise backend systems at Citi — containerization, OpenShift/K8s operations, CI/CD automation, and security remediation at
+  compliance scale. Outside of work I run a two-node homelab for end-to-end project ownership: building, shipping, and operating software I actually use. Currently focused on Rust systems
+  programming and local AI infrastructure.
 
----
+  ---
 
-## 📌 Featured Projects
+  ## 📌 Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+  <table>
+  <tr>
+  <td width="50%" valign="top">
 
-### [`mcp-homelab`](https://github.com/asvarnon/mcp-homelab)
-**AI-powered homelab management**
+  ### [`homelab-rs`](https://github.com/asvarnon/homelab-rs)
+  **Homelab MCP server + local LLM Discord bot**
 
-An [MCP](https://modelcontextprotocol.io/) server that gives AI assistants (Claude, Copilot, etc.) real-time access to homelab infrastructure. 23 tools across SSH, Proxmox VE, OPNsense, and Docker — config-driven, typed returns, no hardcoded hosts.
+  A Rust workspace that exposes homelab infrastructure as AI-callable MCP tools and runs a friend-group Discord bot backed by local LLM inference. MCP server deployed behind Cloudflare
+  Zero Trust with atomic CI/CD deploy and automatic rollback. Discord bot runs on Docker Compose with Redis conversation state and SearXNG web search — all inference on-premises, no API
+  costs.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
-![PyPI](https://img.shields.io/badge/PyPI-published-3775A9?style=flat-square&logo=pypi&logoColor=white)
+  ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+  ![MCP](https://img.shields.io/badge/MCP_Protocol-000000?style=flat-square)
+  ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
-</td>
-<td width="50%" valign="top">
+  </td>
+  <td width="50%" valign="top">
 
-### [`connections`](https://github.com/asvarnon/connections)
-**Discord bot for guild management**
+  ### [`connections`](https://github.com/asvarnon/connections)
+  **Discord bot for guild management**
 
-A Spring Boot Discord bot using JDA. Dynamic command system for querying players and artisans with static and criteria-based lookups, backed by PL/SQL.
+  A Spring Boot Discord bot using JDA. Dynamic command system for querying players and artisans with static and criteria-based lookups, backed by PL/SQL.
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![PLSQL](https://img.shields.io/badge/PL%2FSQL-F80000?style=flat-square&logo=oracle&logoColor=white)
+  ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+  ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+  ![PLSQL](https://img.shields.io/badge/PL%2FSQL-F80000?style=flat-square&logo=oracle&logoColor=white)
 
-</td>
-</tr>
-</table>
+  </td>
+  </tr>
+  </table>
 
----
+  ---
 
-## 🛠 Tech & Tools
+  ## 🛠 Tech & Tools
 
-**Professional**
+  **Professional**
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![PL/SQL](https://img.shields.io/badge/PL%2FSQL-F80000?style=flat-square&logo=oracle&logoColor=white)
+  ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+  ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+  ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+  ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+  ![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white)
+  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+  ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+  ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+  ![PL/SQL](https://img.shields.io/badge/PL%2FSQL-F80000?style=flat-square&logo=oracle&logoColor=white)
 
-**Personal / Learning**
+  **Homelab & Personal**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP_Protocol-000000?style=flat-square)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
-![OPNsense](https://img.shields.io/badge/OPNsense-D94F00?style=flat-square&logo=opnsense&logoColor=white)
+  ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+  ![MCP](https://img.shields.io/badge/MCP_Protocol-000000?style=flat-square)
+  ![Tokio](https://img.shields.io/badge/Tokio-async-000000?style=flat-square)
+  ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
+  ![OPNsense](https://img.shields.io/badge/OPNsense-D94F00?style=flat-square&logo=opnsense&logoColor=white)
+  ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+  ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+  ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square)
 
----
+  ---
 
-## 💡 Philosophy
+  ## 💡 Philosophy
 
-I build tools to solve problems I actually have, and try to avoid hypothetical ones. If I can make something generic enough to share, I publish it. The goal is always to learn by shipping — not by collecting tutorials.
+  I learn by building. Applying a concept until it becomes a skill is the only path that actually sticks. Most of what's here is that process made visible.
 
-Right now I'm focused on experimenting with AI-augmented infrastructure tooling.
+  ---
 
----
+  ## 🔭 Currently
 
-## 🔭 Currently Exploring
-
-- Agentic AI workflows and tool orchestration (MCP)
-- Python ecosystem depth (moving beyond "Java dev writing Python")
-- Security tooling and penetration testing
-- Data engineering pipelines
-
+  - Rust systems programming — shipping production tooling in the homelab
+  - Local LLM inference and AI-augmented infrastructure (Ollama, llama.cpp, MCP)
+  - GPU compute fundamentals (cuda-oxide, Rust + CUDA)
+  - Security tooling and compliance engineering (professional focus)
