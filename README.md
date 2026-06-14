@@ -4,7 +4,7 @@
 
   I build tools to solve problems I'm facing, or because something seems interesting enough to apply a concept I'm working through — sometimes both.
 
-  Professional background in Java, Spring Boot, and enterprise backend systems at Citi — containerization, OpenShift/K8s operations, CI/CD automation, and security remediation at
+  Professional background in Java, Spring Boot, and enterprise backend systems at a large bank — containerization, OpenShift/K8s operations, CI/CD automation, and security remediation at
   compliance scale. Outside of work I run a two-node homelab for end-to-end project ownership: building, shipping, and operating software I actually use. Currently focused on Rust systems
   programming and local AI infrastructure.
 
