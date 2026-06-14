@@ -17,11 +17,10 @@
   <td width="50%" valign="top">
 
   ### [`homelab-rs`](https://github.com/asvarnon/homelab-rs)
-  **Homelab MCP server + local LLM Discord bot**
+  **Homelab MCP server**
 
-  A Rust workspace that exposes homelab infrastructure as AI-callable MCP tools and runs a friend-group Discord bot backed by local LLM inference. MCP server deployed behind Cloudflare
-  Zero Trust with atomic CI/CD deploy and automatic rollback. Discord bot runs on Docker Compose with Redis conversation state and SearXNG web search — all inference on-premises, no API
-  costs.
+  A Rust workspace that exposes homelab infrastructure (Proxmox, OPNsense) as AI-callable MCP tools — node/cluster status, DHCP leases, and more. Deployed behind Cloudflare Zero Trust
+  with atomic CI/CD deploy and automatic rollback. Split into `homelab-core` (HTTP client, config, tool logic) and `homelab-mcp` (thin `rmcp` adapter).
 
   ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
   ![MCP](https://img.shields.io/badge/MCP_Protocol-000000?style=flat-square)
@@ -30,14 +29,30 @@
   </td>
   <td width="50%" valign="top">
 
-  ### [`connections`](https://github.com/asvarnon/connections)
-  **Discord bot for guild management**
+  ### [`Husk`](https://github.com/asvarnon/Husk)
+  **Self-hosted local LLM Discord bot**
 
-  A Spring Boot Discord bot using JDA. Dynamic command system for querying players and artisans with static and criteria-based lookups, backed by PL/SQL.
+  A persona-agnostic Discord bot backed by a local Ollama model. Threaded conversations, optional SearXNG web search, and two-tier memory — hot per-thread history in Redis, durable
+  cross-thread recall via `context-forge`. Everything runs on your own infrastructure, no third-party API.
 
-  ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-  ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-  ![PLSQL](https://img.shields.io/badge/PL%2FSQL-F80000?style=flat-square&logo=oracle&logoColor=white)
+  ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+  ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square)
+  ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+
+  </td>
+  </tr>
+  <tr>
+  <td colspan="2" valign="top">
+
+  ### [`context-forge`](https://github.com/asvarnon/context-forge)
+  **Local-first memory library for LLM apps**
+
+  A Rust crate providing persistent memory for LLM applications — SQLite + FTS5 BM25 retrieval, recency-decay scoring, and token-budget-aware context assembly. No network calls, no
+  async runtime, no cloud dependency. Powers `Husk`'s long-term memory.
+
+  ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+  ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+  ![crates.io](https://img.shields.io/badge/crates.io-context--forge-orange?style=flat-square&logo=rust&logoColor=white)
 
   </td>
   </tr>
@@ -71,6 +86,7 @@
   ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
   ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
   ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square)
+  ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 
   ---
 
