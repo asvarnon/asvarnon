@@ -1,7 +1,6 @@
  # Austin Varnon
 
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-austinvarnon-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in
-  /austinvarnon/)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-austinvarnon-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/austinvarnon/)
 
   I build tools to solve problems I'm facing, or because something seems interesting enough to apply a concept I'm working through — sometimes both.
 
